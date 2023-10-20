@@ -1,0 +1,207 @@
+
+@media(max-width : 1280px) {
+
+    header {
+        width: 95%;
+        margin: auto;
+    }
+
+    .banner {
+        position: relative;
+        top: 100px;
+        left: 300px; 
+    }
+
+    .fsection {
+        width: 95%;
+    }
+
+    .attributes-section {
+        width: 1110px;
+    }
+
+    #attribute-image {
+        width: 500px;
+    }
+
+    .attribute {
+        width: 500px;
+    }
+}
+
+
+@media(max-width : 1190px) {
+    header {
+        width: 95%;
+    }
+
+    .fsection {
+        width: 95%;
+    }
+
+    .main-text p {
+        width: calc(100% - 30px);
+    }
+
+    
+    .banner {
+        position: relative;
+        top: 100px;
+        left: 270px; 
+    }
+    
+    .attributes-section {
+        width: 70%;
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+@media(max-width : 1087px) {
+    .banner {
+        display: none;
+    }
+
+    .main-text {
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width : 820px) {
+   
+    .banner {
+        display: none;
+    }
+
+    .navbar-items h3 {
+        display: none;
+    }
+
+    .navbar-more {
+        display: none;
+    }
+
+    .fsection {
+        flex-direction: column;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .main-text p:first-child {
+        text-align: center;
+        margin: auto;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .rates img {
+        margin-left: 20px;
+    }
+
+    .chatbot img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+    }
+      
+    
+}
+
+@media(max-width : 739px) {
+    header {
+        width: 100%;
+        top: 0;
+        border-radius: 0;
+    }
+
+    .attributes-section {
+        width: 80%;
+
+    }
+
+    .attributes-section #attribute-image {
+        width: calc(100% - 50px);
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+
+
+@media(max-width : 520px) {
+
+    .main-text {
+        font-size: .9rem;
+        width: 89%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .main-text h1 {
+        margin-top: 20px;
+    }
+
+    .main-text h2 {
+        font-size: 1.2rem;
+
+    }
+
+    .chatbot img {
+        width: calc(100% - 40px);
+    }
+
+    .contact-me {
+        display: none;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons h3:last-child {
+        width: 190px;
+        margin-top: 15px !important;
+        padding: 1px 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .main-text p {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20p;
+    }
+
+    .rates p {
+        margin-top: 40px;
+    }
+
+    .attribute-main-text h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .attribute {
+        width: calc(100% - 20px);
+        margin: auto;
+    }
+
+
+
+}

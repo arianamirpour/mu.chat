@@ -143,7 +143,7 @@ nav {
 }
 
 .main-text h1 {
-    font-family: Estedad-Bold ;
+    font-family: Estedad-ExtraBold ;
     color: #096BDE;
 }
 
@@ -217,12 +217,26 @@ nav {
     justify-content: space-between;
 }
 
-.attribute-main-text p:first-child {
-    color: #096BDE;
+
+.attribute-main-text .first {
+    color: #096BDE ;
+
 }
 
 .attribute-main-text h1 {
     font-family: Estedad-Bold;
+}
+
+.attribute {
+    width: 500px;
+}
+
+.attribute p {
+    font-family: Estedad-Light;
+}
+
+#attribute-image {
+    width: 700px;
 }
 
 
@@ -245,6 +259,7 @@ nav {
     display: flex;
     margin-top: 40px;
 
+
 }
 
 
@@ -265,6 +280,7 @@ nav {
 .third-attribute {
     display: flex;
     margin-top: 40px;
+    
 }
 
 .third-attribute img {
