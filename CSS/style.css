@@ -309,6 +309,76 @@ nav {
     font-family: Estedad-Regular;
 }
 
+.inroduce-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.inroduce-video video {
+    width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+.aboutus {
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.aboutus h1 {
+    color: #096BDE;
+}
+
+.aboutus p {
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(213,230,252,1) 0%, rgba(2309,255,255,1) 50%);
+
+    height: 100%;
+    padding: 100px 0 0 0;
+}
+
+#footer-button {
+    display: inline-block;
+    padding: 2px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    background-color: #fff;
+}
+
+footer #footer-p {
+    margin-top: 25px;
+}
+
+
+footer #footer-button {
+    margin-top: 25px;
+}
+
+.social {
+    margin-top: 100px;
+    height: 15vh;
+    background-color: #fff;
+}
+
+.social img {
+    margin-top: 20px;
+}
 
 
 

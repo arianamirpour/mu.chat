@@ -113,6 +113,10 @@
         margin: auto;
 
     }
+
+    .inroduce-video video {
+        width: 85%;
+    }
       
     
 }
@@ -120,6 +124,7 @@
 @media(max-width : 739px) {
     header {
         width: 100%;
+        position: fixed;
         top: 0;
         border-radius: 0;
     }
@@ -133,6 +138,10 @@
         width: calc(100% - 50px);
         justify-content: center;
         align-items: center;
+    }
+
+    .inroduce-video video {
+        width: 85%;
     }
 
     
@@ -200,6 +209,19 @@
     .attribute {
         width: calc(100% - 20px);
         margin: auto;
+    }
+
+    .logo img {
+        width: 140px;
+        margin-top: 6px;
+    }
+
+    .inroduce-video video {
+        width: 85%;
+    }
+
+    .footer {
+        width: 90%;
     }
 
 
