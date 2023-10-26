@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -64,10 +65,81 @@ nav {
     margin-right: 50px;
     font-size: 1.1rem;
     color: #096BDE;
+    cursor: pointer;
+    user-select: none;
+
 }
 
 .navbar-more i {
     font-size: 2rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-evenly;
+    width: 928px;
+    height: 512px;
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.057);
+    padding: 20px 0;
+    transition: .2s all ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+.dropdown .dropbox {
+    width: 45%;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.dropdown .dropbox .dropbox-child {
+    display: flex;
+    width: 100%;
+    height: 18%;
+
+}
+
+.dropdown .dropbox .dropbox-child .box-1 {
+    display: flex;
+    width: 10%;
+    padding-top: 10px;
+    
+}
+
+
+.dropdown .dropbox .dropbox-child .box-1 i {
+    font-size: 1.6rem;
+
+}
+
+.dropdown .dropbox .dropbox-child .box-2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.dropdown .dropbox .dropbox-child .box-2 h6{
+    font-size: 16px;
+}
+.dropdown .dropbox .dropbox-child .box-2 p {
+    font-size: .9rem;
+    font-family: Estedad-Light;
+    line-height: 30px;
+
+}
+
+.dropdown .dropbox .dropbox-bottom {
+    width: 100%;
+    height: 14%;
+    background-color: red;
 }
 
 .contact-me {
@@ -168,12 +240,17 @@ nav {
 
 
 .rates {
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
 }
-
+.rates div{
+    margin-bottom: 30px;
+}
 .rates p {
     position: relative;
     bottom: 45px;
+    margin-top: 30px;
 }
 
 .buttons {
