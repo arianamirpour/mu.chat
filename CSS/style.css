@@ -240,13 +240,9 @@ nav {
 
 
 .rates {
-    display: flex;
-    flex-direction: column;
     margin-top: 30px;
 }
-.rates div{
-    margin-bottom: 30px;
-}
+
 .rates p {
     position: relative;
     bottom: 45px;
@@ -401,6 +397,11 @@ nav {
     margin-top: 30px;
 }
 
+.inroduce-video p {
+    font-family: Estedad-Light;
+    
+}
+
 
 .aboutus {
     width: 70%;
@@ -415,6 +416,9 @@ nav {
 
 .aboutus p {
     margin-top: 20px;
+    font-family: Estedad-Light;
+
+    
 }
 
 .footer {
@@ -440,6 +444,7 @@ nav {
 
 footer #footer-p {
     margin-top: 25px;
+    font-family: Estedad-Light;
 }
 
 
