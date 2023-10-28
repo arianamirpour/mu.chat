@@ -129,6 +129,24 @@
     .inroduce-video video {
         width: 85%;
     }
+
+    .chatbot-form {
+        margin-top: 40px !important;
+        width: 90%;
+        height: 590px;
+        margin: auto;
+    }
+
+    .chatbot-form .input-button {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30px;
+    }
+
+    .chatbot-form .input-button .question h4 {
+        font-size: .7rem !important;
+    }
       
     
 }
@@ -158,6 +176,23 @@
 
     .main-text {
         margin-top: 120px;
+    }
+
+    .chatbot-form {
+        margin-top: 40px !important;
+        width: 90%;
+        margin: auto;
+    }
+
+    .chatbot-form .input-button {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30px;
+    }
+
+    .chatbot-form .input-button .question h4 {
+        font-size: .7rem !important;
     }
 
     
@@ -239,6 +274,24 @@
     .footer {
         width: 90%;
     }
+
+    .chatbot-form {
+        margin-top: 40px !important;
+        width: 90%;
+        margin: auto;
+    }
+
+    .chatbot-form .input-button {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30px;
+    }
+
+    .chatbot-form .input-button .question h4 {
+        font-size: .7rem !important;
+    }
+    
 
 
 
