@@ -51,6 +51,11 @@ nav {
     cursor: pointer;
 }
 
+.navbar-items h3:hover {
+    background-color: #064c9d ;
+
+}
+
 .navbar-items #login {
     
     margin-right: 20px;
@@ -280,6 +285,11 @@ nav {
     margin-bottom: 10px;
 }
 
+.chatbot-form .input-button .question h4:hover {
+    background-color: rgb(214, 214, 215) !important;
+}
+
+
 .chatbot-form .input-button .question h4:first-child {
     margin-left: 15px ;
     background-color: #EBEBEF ;
@@ -288,7 +298,6 @@ nav {
     font-size: .9rem;
 
 }
-
 .chatbot-form .input-button .question h4:last-child {
     margin-left: 20px ;
     background-color: #EBEBEF ;
